@@ -1,0 +1,29 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --activ-color: #2196f3;
+  --back-color: #2f303a;
+  --text-color: #ffffff;
+  --opacity-color: rgba(255, 255, 255, 0.6);
+  --main-bgcolor: #ffffff;
+  --section-color: #f5f4fa;
+  --btn-hover-color: #188ce8;
+  --border-color: #ececec;
+  --portfolio-border-color: #eeeeee;
+  --shadow-color: rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  --shadow-activ-color: rgba(0, 0, 0, 0.15);
+  --opacitybg-color: rgba(47, 48, 58, 0.4);
+  --icon-color: #afb1b8;
+  --icon-bgcolor: rgba(255, 255, 255, 0.1);
+  --portfolio-shadow-color: rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  --discription-bgcolor: rgba(47, 48, 58, 0.8);
+  --btn-color-mode: rgba(0, 0, 0, 0.1);
+
+  // breakpoints
+}
+
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;
