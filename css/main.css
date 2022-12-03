@@ -880,7 +880,7 @@ body {
   text-decoration: none;
   color: var(--main-color);
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 380px) and (min-height: 380px) {
   .mobile-menu__link {
     font-size: 40px;
   }
@@ -908,7 +908,7 @@ body {
   line-height: 1.18;
   color: var(--activ-color);
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 380px) and (min-height: 380px) {
   .mobile-phone {
     font-size: 34px;
   }
@@ -919,7 +919,7 @@ body {
   line-height: 1.17;
   color: var(--secondary-color);
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 380px) and (min-height: 380px) {
   .mobile-mail {
     font-size: 24px;
   }
@@ -951,7 +951,7 @@ body {
   color: var(--activ-color);
   text-decoration: none;
 }
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 380px) and (min-height: 380px) {
   .mobile-socials__link {
     font-size: 18px;
   }

@@ -85,7 +85,7 @@
   letter-spacing: 0.02em;
   text-decoration: none;
 
-  @media screen and(min-width: 350px) {
+  @media screen and(min-width: 380px) and(min-height: 380px) {
     font-size: 40px;
   }
 
@@ -119,7 +119,7 @@
   line-height: 1.18;
   color: var(--activ-color);
 
-  @media screen and(min-width: 350px) {
+  @media screen and(min-width: 380px) and(min-height: 380px) {
     font-size: 34px;
   }
 }
@@ -129,7 +129,7 @@
   line-height: 1.17;
   color: var(--secondary-color);
 
-  @media screen and(min-width: 350px) {
+  @media screen and(min-width: 380px) and(min-height: 380px) {
     font-size: 24px;
   }
 }
@@ -159,7 +159,7 @@
   color: var(--activ-color);
   text-decoration: none;
 
-  @media screen and(min-width: 350px) {
+  @media screen and(min-width: 380px) and(min-height: 380px) {
     font-size: 18px;
   }
 }
