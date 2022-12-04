@@ -23,7 +23,9 @@
   }
 
   .features__item:not(:last-child) {
-    margin-bottom: 30px;
+    @media screen and (max-width: $tablet) {
+      margin-bottom: 30px;
+    }
   }
 
   &__item {

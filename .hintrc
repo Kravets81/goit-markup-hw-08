@@ -23,6 +23,14 @@
           "user-select"
         ]
       }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "img[loading]"
+        ]
+      }
     ]
   }
 }
