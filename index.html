@@ -161,17 +161,30 @@
 
         <ul class="profile__list list">
           <li class="profile__item">
-            <img class="profile__img" srcset="
-                  ./images/profile/imgfoto1_270.jpg 270w,
-                  ./images/profile/imgfoto1_354.jpg 354w,
-                  ./images/profile/imgfoto1_450.jpg 450w,
-                  ./images/profile/imgfoto1_540.jpg 540w,
-                  ./images/profile/imgfoto1_708.jpg 708w,
-                  ./images/profile/imgfoto1_900.jpg 900w
-                " sizes="(min-width: 1200px) 270px, 
+            <picture>
+              <source srcset="
+                    ./images/profile/imgfoto1_270.webp 270w,
+                    ./images/profile/imgfoto1_354.webp 354w,
+                    ./images/profile/imgfoto1_450.webp 450w,
+                    ./images/profile/imgfoto1_540.webp 540w,
+                    ./images/profile/imgfoto1_708.webp 708w,
+                    ./images/profile/imgfoto1_900.webp 900w
+                  " type="image/webp" sizes="(min-width: 1200px) 270px, 
+                         (min-width: 768px) 354px, 
+                         (min-width: 480px) 450px,
+              100vw" />
+              <img class="profile__img" srcset="
+                    ./images/profile/imgfoto1_270.jpg 270w,
+                    ./images/profile/imgfoto1_354.jpg 354w,
+                    ./images/profile/imgfoto1_450.jpg 450w,
+                    ./images/profile/imgfoto1_540.jpg 540w,
+                    ./images/profile/imgfoto1_708.jpg 708w,
+                    ./images/profile/imgfoto1_900.jpg 900w
+                  " sizes="(min-width: 1200px) 270px, 
                          (min-width: 768px) 354px, 
                          (min-width: 480px) 450px,
               100vw" src="./images/profile/imgfoto1_450.jpg" alt="фото людини" loading="lazy" />
+            </picture>
 
             <h3 class="profile__name">Ігор Дем'яненко</h3>
             <p lang="en" class="profile__speciality">Product Designer</p>
@@ -217,17 +230,30 @@
           </li>
 
           <li class="profile__item">
-            <img class="profile__img" srcset="
-                  ./images/profile/imgfoto2_270.jpg 270w,
-                  ./images/profile/imgfoto2_354.jpg 354w,
-                  ./images/profile/imgfoto2_450.jpg 450w,
-                  ./images/profile/imgfoto2_540.jpg 540w,
-                  ./images/profile/imgfoto2_708.jpg 708w,
-                  ./images/profile/imgfoto2_900.jpg 900w
-                " sizes="(min-width: 1200px) 270px, 
+            <picture>
+              <source srcset="
+                    ./images/profile/imgfoto2_270.webp 270w,
+                    ./images/profile/imgfoto2_354.webp 354w,
+                    ./images/profile/imgfoto2_450.webp 450w,
+                    ./images/profile/imgfoto2_540.webp 540w,
+                    ./images/profile/imgfoto2_708.webp 708w,
+                    ./images/profile/imgfoto2_900.webp 900w
+                  " type="image/webp" sizes="(min-width: 1200px) 270px, 
+                                     (min-width: 768px) 354px, 
+                                     (min-width: 480px) 450px,
+                          100vw" />
+              <img class="profile__img" srcset="
+                    ./images/profile/imgfoto2_270.jpg 270w,
+                    ./images/profile/imgfoto2_354.jpg 354w,
+                    ./images/profile/imgfoto2_450.jpg 450w,
+                    ./images/profile/imgfoto2_540.jpg 540w,
+                    ./images/profile/imgfoto2_708.jpg 708w,
+                    ./images/profile/imgfoto2_900.jpg 900w
+                  " sizes="(min-width: 1200px) 270px, 
                                      (min-width: 768px) 354px, 
                                      (min-width: 480px) 450px,
                           100vw" src="./images/profile/imgfoto2_450.jpg" alt="фото людини" loading="lazy" />
+            </picture>
             <h3 class="profile__name">Ольга Рєпіна</h3>
             <p lang="en" class="profile__speciality">Frontend Developer</p>
             <div class="profile__social">
@@ -272,17 +298,30 @@
           </li>
 
           <li class="profile__item">
-            <img class="profile__img" srcset="
-                  ./images/profile/imgfoto3_270.jpg 270w,
-                  ./images/profile/imgfoto3_354.jpg 354w,
-                  ./images/profile/imgfoto3_450.jpg 450w,
-                  ./images/profile/imgfoto3_540.jpg 540w,
-                  ./images/profile/imgfoto3_708.jpg 708w,
-                  ./images/profile/imgfoto3_900.jpg 900w
-                " sizes="(min-width: 1200px) 270px, 
-                                     (min-width: 768px) 354px, 
-                                     (min-width: 480px) 450px,
-                          100vw" src="./images/profile/imgfoto3_450.jpg" alt="фото людини" loading="lazy" />
+            <picture>
+              <source srcset="
+                    ./images/profile/imgfoto3_270.webp 270w,
+                    ./images/profile/imgfoto3_354.webp 354w,
+                    ./images/profile/imgfoto3_450.webp 450w,
+                    ./images/profile/imgfoto3_540.webp 540w,
+                    ./images/profile/imgfoto3_708.webp 708w,
+                    ./images/profile/imgfoto3_900.webp 900w
+                  " type="image/webp" sizes="(min-width: 1200px) 270px, 
+                                               (min-width: 768px) 354px, 
+                                               (min-width: 480px) 450px,
+                                    100vw" />
+              <img class="profile__img" srcset="
+                    ./images/profile/imgfoto3_270.jpg 270w,
+                    ./images/profile/imgfoto3_354.jpg 354w,
+                    ./images/profile/imgfoto3_450.jpg 450w,
+                    ./images/profile/imgfoto3_540.jpg 540w,
+                    ./images/profile/imgfoto3_708.jpg 708w,
+                    ./images/profile/imgfoto3_900.jpg 900w
+                  " sizes="(min-width: 1200px) 270px, 
+                                               (min-width: 768px) 354px, 
+                                               (min-width: 480px) 450px,
+                                    100vw" src="./images/profile/imgfoto3_450.jpg" alt="фото людини" loading="lazy" />
+            </picture>
             <h3 class="profile__name">Микола Тарасов</h3>
             <p lang="en" class="profile__speciality">Marketing</p>
             <div class="profile__social">
@@ -327,17 +366,31 @@
           </li>
 
           <li class="profile__item">
-            <img class="profile__img" srcset="
-                  ./images/profile/imgfoto4_270.jpg 270w,
-                  ./images/profile/imgfoto4_354.jpg 354w,
-                  ./images/profile/imgfoto4_450.jpg 450w,
-                  ./images/profile/imgfoto4_540.jpg 540w,
-                  ./images/profile/imgfoto4_708.jpg 708w,
-                  ./images/profile/imgfoto4_900.jpg 900w
-                " sizes="(min-width: 1200px) 270px, 
-                                     (min-width: 768px) 354px, 
-                                     (min-width: 480px) 450px,
-                          100vw" src="./images/profile/imgfoto4_450.jpg" alt="фото людини" loading="lazy" />
+            <picture>
+              <source srcset="
+                    ./images/profile/imgfoto4_270.webp 270w,
+                    ./images/profile/imgfoto4_354.webp 354w,
+                    ./images/profile/imgfoto4_450.webp 450w,
+                    ./images/profile/imgfoto4_540.webp 540w,
+                    ./images/profile/imgfoto4_708.webp 708w,
+                    ./images/profile/imgfoto4_900.webp 900w
+                  " type="image/webp" sizes="(min-width: 1200px) 270px, 
+                                                 (min-width: 768px) 354px, 
+                                                 (min-width: 480px) 450px,
+                                      100vw" />
+              <img class="profile__img" srcset="
+                    ./images/profile/imgfoto4_270.jpg 270w,
+                    ./images/profile/imgfoto4_354.jpg 354w,
+                    ./images/profile/imgfoto4_450.jpg 450w,
+                    ./images/profile/imgfoto4_540.jpg 540w,
+                    ./images/profile/imgfoto4_708.jpg 708w,
+                    ./images/profile/imgfoto4_900.jpg 900w
+                  " sizes="(min-width: 1200px) 270px, 
+                                                 (min-width: 768px) 354px, 
+                                                 (min-width: 480px) 450px,
+                                      100vw" src="./images/profile/imgfoto4_450.jpg" alt="фото людини"
+                loading="lazy" />
+            </picture>
             <h3 class="profile__name">Михайло Єрмаков</h3>
             <p lang="en" class="profile__speciality">UI Designer</p>
             <div class="profile__social">
