@@ -51,6 +51,10 @@
 .footer__contact {
   min-width: 232px;
 
+  @media screen and(max-width: $desktop) {
+    margin-bottom: 60px;
+  }
+
   @media screen and(min-width: $tablet) {
     margin-right: 165px;
   }
@@ -61,8 +65,10 @@
 }
 
 .invitation {
-  @media screen and(max-width: $tablet) {
-    margin-bottom: 60px;
+  &:not(:last-child) {
+    @media screen and(max-width: $tablet) {
+      margin-bottom: 60px;
+    }
   }
 
   &:not(:last-child) {
