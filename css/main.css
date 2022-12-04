@@ -110,7 +110,7 @@ body {
     padding-bottom: 24px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
   .logo {
     font-size: 24px;
     line-height: 1.17;
@@ -474,7 +474,7 @@ body {
           align-items: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   .header__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -490,7 +490,7 @@ body {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   .contacts-wrapper {
     display: none;
   }
@@ -689,7 +689,7 @@ body {
 .footer__contact {
   min-width: 232px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.98px) {
   .footer__contact {
     margin-bottom: 60px;
   }
@@ -705,7 +705,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
   .invitation:not(:last-child) {
     margin-bottom: 60px;
   }
@@ -1082,7 +1082,7 @@ body {
     gap: 30px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
   .features .features__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1257,7 +1257,7 @@ body {
     width: 270px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
   .profile__item:not(:last-child) {
     margin-bottom: 30px;
   }
